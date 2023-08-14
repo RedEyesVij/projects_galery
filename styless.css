@@ -17,14 +17,12 @@ body {
 }
 
 .conteiner {
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .fimg {
-    max-width: 400px;
     margin-top: 24px;
     width: 100%;
 }
