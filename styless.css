@@ -1,5 +1,6 @@
 body {
     margin: 64px 64px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .all-conteiner {
@@ -35,4 +36,21 @@ p {
 .text-anons {
     font-size: 24px;
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .all-conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fimg {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .text-anons {
+        font-size: 20px;
+        width: 60%;
+    }
 }
