@@ -38,19 +38,81 @@ p {
     width: 100%;
 }
 
+@media (max-width: 1280px) {
+    .first-text {
+        font-size: 70px;
+    }
+
+}
+
 @media (max-width: 1000px) {
-    .all-conteiner {
+
+    body {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .all-conteiner {
+        grid-template-columns: repeat(1, 3fr);
+        gap: 56px;
+        font-size: 24px;
+    }
+
+    .first-text {
+        font-size: 50px;
+
     }
 
     .fimg {
         margin-top: 20px;
-        width: 60%;
+
     }
 
     .text-anons {
         font-size: 20px;
-        width: 60%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        margin: 32px 32px;
+
+    }
+
+    .all-conteiner {
+        margin-top: 25px;
+        gap: 20px;
+    }
+
+    .first-text {
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    body {
+        margin: 16px 16px;
+
+    }
+
+    .all-conteiner {
+        margin-top: 20px;
+        gap: 14px;
+    }
+
+    .first-text {
+        font-size: 24px;
+    }
+
+    .text-anons {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 16px;
     }
 }
