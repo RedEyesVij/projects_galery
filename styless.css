@@ -16,7 +16,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 56px;
     font-size: 24px;
-
 }
 
 .first-text {
@@ -53,7 +52,6 @@ p {
 }
 
 @media (max-width: 1024px) {
-
     body {
         display: flex;
         flex-direction: column;
@@ -68,12 +66,10 @@ p {
 
     .first-text {
         font-size: 50px;
-
     }
 
     .fimg {
         margin-top: 20px;
-
     }
 
     .text-anons {
