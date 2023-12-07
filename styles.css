@@ -32,9 +32,14 @@ body {
 .fimg {
     margin-top: 24px;
     width: 100%;
+    cursor: pointer;
 }
 
-p {
+.fimg:hover {
+    box-shadow: 0px 5px 5px #00000033;
+}
+
+.g-number {
     font-size: 32px;
     margin-top: 0;
 }
@@ -114,7 +119,7 @@ p {
         font-size: 14px;
     }
 
-    p {
+    .g-number {
         font-size: 16px;
     }
 }
